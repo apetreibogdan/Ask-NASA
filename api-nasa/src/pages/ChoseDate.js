@@ -5,15 +5,11 @@ import Fetch from "../services/apiService";
 function ChoseDate() {
     const [itemInput, setItemInput] = useState(null);
 
-
-
     function handleSubmit(e) {
         e.preventDefault();
         setItemInput(e.target[0].value);
         console.log(itemInput)
     };
-
-
 
     function Display() {
         return (
