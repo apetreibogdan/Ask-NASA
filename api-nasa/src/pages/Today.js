@@ -12,7 +12,7 @@ function Today() {
             </div>
             <h1>Today's page</h1>
             <div>
-                <Fetch ceva='2020-10-10' />
+                <Fetch ceva='' />
             </div>
         </div>
     );

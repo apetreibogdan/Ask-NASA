@@ -15,7 +15,7 @@ function Fetch(props) {
     // this useEffect will run once
     // similar to componentDidMount()
     useEffect(() => {
-        fetch(`https://api.nasa.gov/planetary/apod?date=${props.ceva}&api_key=${apiKey}`)
+        fetch(`https://api.nasa.gov/planetary/apod?${props.ceva}&api_key=${apiKey}`)
             .then(res => res.json())
             .then(
                 (result) => {

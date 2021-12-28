@@ -7,7 +7,7 @@ function ChoseDate() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        setItemInput(e.target[0].value);
+        setItemInput(`date=${e.target[0].value}`);
         console.log(itemInput)
     };
 
