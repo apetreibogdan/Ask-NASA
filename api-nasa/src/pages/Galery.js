@@ -14,7 +14,7 @@ function ChoseDate() {
         console.log(e);
         setStart_date(e.target[0].value);
         setEnd_date(e.target[1].value);
-        setItemInput(`start_date=${start_date}&end_date${end_date}&`)
+        setItemInput(`start_date=${start_date}&end_date=${end_date}&`)
         console.log(itemInput)
     };
 

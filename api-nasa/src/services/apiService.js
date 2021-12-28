@@ -43,7 +43,9 @@ function Fetch(props) {
                 <ul>
                     {items.map(item => (
                         <li key={item.title}>
-                            {item.img}
+                            <h1>{item.title}</h1>
+                        <img src={item.url} alt={item.title} />
+                        <p>{item.explanation}</p>
                         </li>
                     ))}
                 </ul>
